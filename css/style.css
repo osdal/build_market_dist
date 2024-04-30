@@ -1,164 +1,135 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular,500,600,700&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Roboto+Flex:regular&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Rubik+Beastly:regular&display=swap);
-
 @charset "UTF-8";
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Flex:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rubik+Beastly:regular&display=swap);
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-Black.woff2") format("woff2"), url("../fonts/Arial-Black.woff") format("woff");
+  src: url(../fonts/Arial-Black.woff2) format("woff2"),url(../fonts/Arial-Black.woff) format("woff");
   font-weight: 900;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-BoldItalicMT.woff2") format("woff2"), url("../fonts/Arial-BoldItalicMT.woff") format("woff");
+  src: url(../fonts/Arial-BoldItalicMT.woff2) format("woff2"),url(../fonts/Arial-BoldItalicMT.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-BoldItalicMT.woff2") format("woff2"), url("../fonts/Arial-BoldItalicMT.woff") format("woff");
+  src: url(../fonts/Arial-BoldItalicMT.woff2) format("woff2"),url(../fonts/Arial-BoldItalicMT.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-Black.woff2") format("woff2"), url("../fonts/Arial-Black.woff") format("woff");
+  src: url(../fonts/Arial-Black.woff2) format("woff2"),url(../fonts/Arial-Black.woff) format("woff");
   font-weight: 900;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-BoldMT.woff2") format("woff2"), url("../fonts/Arial-BoldMT.woff") format("woff");
+  src: url(../fonts/Arial-BoldMT.woff2) format("woff2"),url(../fonts/Arial-BoldMT.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: Arial;
   font-display: swap;
-  src: url("../fonts/Arial-ItalicMT.woff2") format("woff2"), url("../fonts/Arial-ItalicMT.woff") format("woff");
+  src: url(../fonts/Arial-ItalicMT.woff2) format("woff2"),url(../fonts/Arial-ItalicMT.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: ArialMT;
   font-display: swap;
-  src: url("../fonts/ArialMT.woff2") format("woff2"), url("../fonts/ArialMT.woff") format("woff");
+  src: url(../fonts/ArialMT.woff2) format("woff2"),url(../fonts/ArialMT.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: ArialNarrow;
   font-display: swap;
-  src: url("../fonts/ArialNarrow-Bold.woff2") format("woff2"), url("../fonts/ArialNarrow-Bold.woff") format("woff");
+  src: url(../fonts/ArialNarrow-Bold.woff2) format("woff2"),url(../fonts/ArialNarrow-Bold.woff) format("woff");
   font-weight: 700;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: ArialNarrow;
   font-display: swap;
-  src: url("../fonts/ArialNarrow-BoldItalic.woff2") format("woff2"), url("../fonts/ArialNarrow-BoldItalic.woff") format("woff");
+  src: url(../fonts/ArialNarrow-BoldItalic.woff2) format("woff2"),url(../fonts/ArialNarrow-BoldItalic.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: ArialNarrow;
   font-display: swap;
-  src: url("../fonts/ArialNarrow-Italic.woff2") format("woff2"), url("../fonts/ArialNarrow-Italic.woff") format("woff");
+  src: url(../fonts/ArialNarrow-Italic.woff2) format("woff2"),url(../fonts/ArialNarrow-Italic.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 @font-face {
   font-family: ArialNarrow;
   font-display: swap;
-  src: url("../fonts/ArialNarrow.woff2") format("woff2"), url("../fonts/ArialNarrow.woff") format("woff");
+  src: url(../fonts/ArialNarrow.woff2) format("woff2"),url(../fonts/ArialNarrow.woff) format("woff");
   font-weight: 400;
-  font-style: normal;
+  font-style: normal
 }
-
 * {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+  padding: 0;
+  margin: 0;
+  border: 0
 }
-
 *,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+*:after,
+*:before {
+  box-sizing: border-box
 }
-
-html,
-body {
+body,
+html {
   height: 100%;
-  min-width: 320px;
+  min-width: 320px
 }
-
 body {
   color: #000;
   line-height: 1;
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale
 }
-
-input,
 button,
+input,
 textarea {
-  font-family: "Montserrat";
-  font-size: inherit;
+  font-family: Montserrat;
+  font-size: inherit
 }
-
 button {
   cursor: pointer;
   color: inherit;
-  background-color: inherit;
+  background-color: inherit
 }
-
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none
 }
-
 ul li {
-  list-style: none;
+  list-style: none
 }
-
 img {
-  vertical-align: top;
+  vertical-align: top
 }
-
 h1,
 h2,
 h3,
@@ -166,66 +137,39 @@ h4,
 h5,
 h6 {
   font-weight: inherit;
-  font-size: inherit;
+  font-size: inherit
 }
-
-body {
-  background: #F5F5F5;
-}
-
 .lock body {
   overflow: hidden;
-  -ms-touch-action: none;
-      touch-action: none;
+  touch-action: none;
   -ms-scroll-chaining: none;
-      overscroll-behavior: none;
+  overscroll-behavior: none
 }
-
 .wrapper {
   min-height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  overflow: hidden;
+  flex-direction: column;
+  overflow: hidden
 }
-
-@supports (overflow: clip) {
+@supports (overflow:clip) {
   .wrapper {
-    overflow: clip;
+    overflow: clip
   }
 }
-
 .wrapper > main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto
 }
-
 .wrapper > * {
-  min-width: 0;
+  min-width: 0
 }
-
-/*
-(i) Стилі будуть застосовуватись до
-всіх класів, що містять *__container
-Наприклад header__container, main__container і т.п.
-Сніппет (HTML): cnt
-*/
-
 [class*=__container] {
   max-width: 106.875rem;
   margin: 0 auto;
-  padding: 0 0.9375rem;
+  padding: 0 .9375rem
 }
-
 [class*=-ibg] {
-  position: relative;
+  position: relative
 }
-
 [class*=-ibg] img {
   position: absolute;
   width: 100%;
@@ -233,232 +177,246 @@ body {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover
 }
-
 [class*=-ibg_contain] img {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain
 }
-
 .header__container .name-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 8.75rem;
+  justify-content: space-between;
+  align-items: center
 }
-
 .header__container .name-bar .search {
   width: 6.25rem;
-  height: 100%;
+  height: 100%
 }
-
 .header__container .name-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.125rem
 }
-
 .header__container .name-block h1 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700
 }
-
 .header__container .name-block h2 {
-  font-size: 0.6875rem;
-  font-weight: 500;
+  font-size: .6875rem;
+  font-weight: 500
 }
-
 .header__container .favorites-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center
 }
-
 .header__container .main-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  gap: 4.375rem;
+  gap: 4.375rem
 }
-
 .header__container .main-menu ul a {
   font-size: 1rem;
+  font-weight: 600;
+  transition: all .3s
 }
-
-.no-webp .header .top-bar{
-  background-image: url("img/top_bar.jpg"); }
-
+.header__container .main-menu ul a:hover {
+  color: #fe212a
+}
 .header .top-bar {
   height: 2.375rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 1.25rem;
+  background-image: url(../img/top_bar.webp)
 }
-
+.header .top-bar__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem
+}
 .header .top-bar h2 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #ffffff;
-  text-transform: capitalize;
+  color: #fff;
+  text-transform: capitalize
 }
-
 .header .top-menu-bar {
-  border-bottom: 0.01875rem solid #8C8C8C;
+  border-bottom: .01875rem solid #8c8c8c;
+  margin-bottom: 3.125rem
 }
-
 .header .top-menu-bar__container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 2.8125rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center
 }
-
 .header .top-menu-bar .quantity-goods {
-  font-size: 0.75rem;
-  color: #3B3A3D;
+  font-size: .75rem;
+  color: #3b3a3d
 }
-
 .header .top-menu-bar .top-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1.25rem;
-  font-size: 0.75rem;
+  font-size: .75rem;
   font-weight: 600;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s
 }
-
+.header .top-menu-bar .top-menu a:hover {
+  color: #fe212a
+}
 .header .top-menu-bar .top-menu .active {
-  background-color: #FE212A;
-  padding: 0.3125rem 0.625rem;
-  border-radius: 0.3125rem;
-  color: #fff;
+  background-color: #fe212a;
+  padding: .3125rem .625rem;
+  border-radius: .3125rem;
+  color: #fff
 }
-
+.header .top-menu-bar .top-menu .active a:hover {
+  color: #fff
+}
 .header .top-menu-bar .lang-switcher {
   position: absolute;
   left: 75%;
   gap: 1.25rem;
   font-weight: 600;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center
 }
-
 .header .top-menu-bar .lang-switcher .active {
   background-color: #000;
-  padding: 0.3125rem;
-  border-radius: 0.3125rem;
-  color: #fff;
+  padding: .3125rem;
+  border-radius: .3125rem;
+  color: #fff
 }
-
 .header .top-menu-bar .entry-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1.25rem;
+  font-weight: 600
+}
+.footer__container {
+  display: flex;
+  flex-direction: column
+}
+.footer__container .slogan {
+  font-size: 1rem;
   font-weight: 600;
+  margin-bottom: 2.5rem
 }
-
-/*
-.icon-menu {
-	display: none;
-	@media (max-width: $mobile) {
-		display: block;
-		position: relative;
-		width: rem(30);
-		height: rem(18);
-		z-index: 5;
-		@media (any-hover: none) {
-			cursor: default;
-		}
-		span,
-		&::before,
-		&::after {
-			content: "";
-			transition: all 0.3s ease 0s;
-			right: 0;
-			position: absolute;
-			width: 100%;
-			height: rem(2);
-			background-color: #000;
-		}
-		&::before {
-			top: 0;
-		}
-		&::after {
-			bottom: 0;
-		}
-		span {
-			top: calc(50% - rem(1));
-		}
-		.menu-open & {
-			span {
-				width: 0;
-			}
-			&::before,
-			&::after {
-			}
-			&::before {
-				top: calc(50% - rem(1));
-				transform: rotate(-45deg);
-			}
-			&::after {
-				bottom: calc(50% - rem(1));
-				transform: rotate(45deg);
-			}
-		}
-	}
+.footer__container .invitation {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-weight: 400;
+  margin-bottom: 4.375rem
 }
-*/
-
-h1 {
-  font: 1em sans-serif;
-  font-family: Arial;
+.footer__container .to-read {
+  color: #1060c1;
+  margin-bottom: 1.25rem
+}
+.footer__container .logos-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.375rem;
+  min-height: 1.5625rem
+}
+.footer__container .logos-block img {
+  height: 100%
+}
+.footer__container .info {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  margin-bottom: 1.875rem
+}
+.footer__container .col-1,
+.footer__container .col-2 {
+  display: flex;
+  flex-direction: column
+}
+.footer__container .col-1 {
+  gap: 3.125rem
+}
+.footer__container .name {
+  margin-bottom: 1.25rem;
+  font-size: .75rem
+}
+.footer__container .name h2 {
+  font-size: 3rem;
+  font-weight: 700
+}
+.footer__container .col-1 {
+  flex-grow: 1;
+  gap: 1.25rem
+}
+.footer__container .col-1 .help-phone {
+  font-weight: 600;
+  font-size: 1.125rem
+}
+.footer__container .col-2 {
+  flex-grow: 3
+}
+.footer__container .col-2 .connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 700;
-  font-size: 1.625rem;
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem
 }
-
-.webp .header .top-bar{ background-image: url(img/top_bar.webp); }
+.footer__container .col-2 .social {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem
+}
+.footer__container .col-2 .social div {
+  display: flex;
+  gap: .3125rem
+}
+.footer__container .col-2 .subscription {
+  align-self: start
+}
+.footer__container .col-2 .subscription input {
+  border: 2px solid #ccc;
+  border-radius: .625rem;
+  padding: .625rem 1.25rem;
+  outline: 0
+}
+.footer__container .col-2 .subscription input::-webkit-input-placeholder {
+  color: #000
+}
+.footer__container .col-2 .subscription input:-ms-input-placeholder {
+  color: #000
+}
+.footer__container .col-2 .subscription input::-ms-input-placeholder {
+  color: #000
+}
+.footer__container .col-2 .subscription input::placeholder {
+  color: #000
+}
+.footer__container .col-2 .subscription button {
+  background-color: #7f7f7f;
+  border: 2px solid #7f7f7f;
+  border-radius: .625rem;
+  padding: .625rem 2.5rem;
+  color: #fff
+}
+.footer__container .content,
+.footer__container .social {
+  display: flex;
+  gap: 6.25rem
+}
+.footer__container .content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-weight: 500
+}
+.footer__container .content > div > div:first-child {
+  font-size: 1rem;
+  font-weight: 600
+}
+.footer__container .copyright {
+  align-self: center;
+  font-weight: 600
+}
